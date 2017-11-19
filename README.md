@@ -1,4 +1,4 @@
-# Database name: elisawa_507project6
+* *Database name: elisawa_507project6*
 
 # SI 507 F17 - Project 6 - Databases & Planning
 
