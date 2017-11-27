@@ -158,7 +158,7 @@ print(all_locations)
 ##### QUESTION: MUST IT BE EXACTLY "beautiful" OR DOES "beautifully" COUNT? #####
 # query the database for all of the names of the sites whose descriptions include the word beautiful. 
 # Save the resulting data in a variable called beautiful_sites.
-cur.execute("""SELECT "Description" FROM "Sites" WHERE "Description" like '%beautiful%'""")
+cur.execute("""SELECT "Name" FROM "Sites" WHERE "Description" like '%beautiful%'""")
 beautiful_sites = cur.fetchall()
 print(beautiful_sites)
 
