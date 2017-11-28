@@ -17,7 +17,7 @@ import psycopg2.extras
 import sys
 import csv
 from psycopg2 import sql
-from config_SQL import *
+from config import *
 
 DEBUG = False
 
